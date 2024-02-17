@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ConnectWallet-web3/static/css/main.d5132c85.css",
+    "main.js": "/ConnectWallet-web3/static/js/main.b1350e3a.js",
+    "static/js/453.00329c38.chunk.js": "/ConnectWallet-web3/static/js/453.00329c38.chunk.js",
+    "static/media/eth.png": "/ConnectWallet-web3/static/media/eth.598d353ce05433e1f2e2.png",
+    "static/media/azuki.png": "/ConnectWallet-web3/static/media/azuki.6d5770df9297e08d4ab6.png",
+    "index.html": "/ConnectWallet-web3/index.html",
+    "main.d5132c85.css.map": "/ConnectWallet-web3/static/css/main.d5132c85.css.map",
+    "main.b1350e3a.js.map": "/ConnectWallet-web3/static/js/main.b1350e3a.js.map",
+    "453.00329c38.chunk.js.map": "/ConnectWallet-web3/static/js/453.00329c38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5132c85.css",
+    "static/js/main.b1350e3a.js"
+  ]
+}
