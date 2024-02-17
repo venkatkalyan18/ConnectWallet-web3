@@ -1,38 +1,58 @@
+.main-div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(173, 216, 230, 0.4);
+
+}
+
 .App {
+  background: rgba(255, 255, 255, 0.15); /* Adjust opacity for glass effect */
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Adjust blur for glass effect */
+  padding: 20px;
+  width: 300px;
+  
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.azuki-logo{
+  border-radius: 8px;
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.eth-logo{
+  margin:0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  background-color: #4CAF50;
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  font-size: 20px;
+  margin: 15px;
+}
+
+.eth-logo{
+  margin-top:0px;
 }
